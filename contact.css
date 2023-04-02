@@ -1,0 +1,81 @@
+
+.btn{
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    background: #fb2525 ;
+    outline: none;
+    height: 40px;
+    color:#fff ;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #188eee;
+    color: #000;
+    
+}
+
+.vr{
+    display: inline-block;
+    border-radius: 10px;
+    color: aliceblue;
+    align-content: center;
+    padding-top: 150px;
+    padding-left: 100px;
+    width: 50px;
+    height: 50px;
+}
+*{
+    margin:0px;
+}
+#mainlogo 
+{
+    margin: -11px 50px;
+    height: 0;
+    padding-top: 20px;
+
+}
+.vr input[type="text"],input[type="password"],input[type="Username"]
+{
+    border: brown;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff ;
+    font-size: 16px;
+}
+.vr textarea[name="text"]
+{
+    border: brown;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff ;
+    font-size: 16px;
+}
+.vr p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b000e675, 0 0 40px #b000e675 0 0 50px #b000e675, 0 0 60px #b000e675, 0 0 70px #b000e675;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #b000e675, 0 0 40px #b000e675, 0 0 50px #b000e675, 0 0 60px #b000e675, 0 0 70px #b000e675, 0 0 80px #b000e675;
+    }
+  }
